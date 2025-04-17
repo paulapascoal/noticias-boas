@@ -1,0 +1,103 @@
+@charset    "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+:root{
+    --cor1: #BA3F06;
+    --cor2: #995A3D;
+    --cor3: #52ABA0;
+    --cor4: #453C38;
+
+
+
+    --font1: 'Verdana, Geneva, Tahoma, sans-serif';
+    --font2: 'Markazi', cursive;
+    --font3: 'Libre Baskerville', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+
+
+}
+header{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center
+    
+   
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
+    color: var(--cor3);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: var(--cor1);
+   
+       
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: var(--cor4);
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(69, 60, 56, 0.911);
+    box-shadow: 1px 2px 0px var(--cor4);
+    color: white;
+}
+
+section#img1{
+    background-image: url(../ex020/imagem/lampada.jpg);
+    background-position: center center;
+}
+
+section#img2{
+    background-image: url(../ex020/imagem/tartaruga.jpg);
+    background-position: left top;
+}
+
+footer{
+    background-color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
