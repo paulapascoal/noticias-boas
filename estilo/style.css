@@ -86,12 +86,12 @@ section.imagem > p{
 }
 
 section#img1{
-    background-image: url(../ex020/imagem/lampada.jpg);
+    background-image: url('../imagem/lampada.jpg');
     background-position: center center;
 }
 
 section#img2{
-    background-image: url(../ex020/imagem/tartaruga.jpg);
+    background-image: url('../imagem/tartaruga.jpg');
     background-position: left top;
 }
 
