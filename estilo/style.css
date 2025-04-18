@@ -8,7 +8,7 @@
 :root{
     --cor1: #BA3F06;
     --cor2: #995A3D;
-    --cor3: #52ABA0;
+    --cor3: #68d3c6;
     --cor4: #453C38;
 
 
@@ -80,7 +80,7 @@ section.normal{
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(69, 60, 56, 0.911);
+    background-color: rgba(69, 60, 56, 0.753);
     box-shadow: 1px 2px 0px var(--cor4);
     color: white;
 }
@@ -96,7 +96,8 @@ section#img2{
 }
 
 footer{
-    background-color: var(--cor4);
+    background-image: linear-gradient(var(--cor4), transparent);
+    font-family: var(--font3);
     text-align: center;
     padding: 10px;
     font-size: 1.5em;
